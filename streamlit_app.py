@@ -4,7 +4,7 @@ import random
 
 st.set_page_config(page_title="Weekly Student Picker", page_icon="🎓", layout="centered")
 
-st.title("🎓 Weekly Student Picker Streamlit")
+st.title("🎓 Weekly Student Picker")
 st.markdown("Upload your spreadsheet to randomly select students for each category.")
 
 uploaded_file = st.file_uploader("Upload spreadsheet (.xlsx or .csv)", type=["xlsx", "csv"])
